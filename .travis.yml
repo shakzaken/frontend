@@ -9,6 +9,7 @@ before_install:
 script: 
   - docker run -e CI=true shakzaken/docker-react npm run test
 
+
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
@@ -20,10 +21,3 @@ deploy:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: "$AWS_SECRET_KEY"
-
-acess key
-  AKIA5ICXTXQPKH7MACGE
-
-secret 
-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
-
